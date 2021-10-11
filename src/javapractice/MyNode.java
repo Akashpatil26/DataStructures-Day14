@@ -20,10 +20,12 @@ public class MyNode<K> implements javapractice.INode<K> {
     }
 
     public INode getNext() {
+
         return next;
     }
 
     public void setNext(INode next) {
+
         this.next=next;
     }
 }
